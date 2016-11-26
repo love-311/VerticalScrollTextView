@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         mKeyWordString.add("一台");
         SpannableString spannableString = null;
         try {
-            spannableString = SpanUtils.getKeyWordSpan(Color.GREEN, string, mKeyWordString);
+            spannableString = SpanUtils.getKeyWordSpan(Color.BLUE, string, mKeyWordString);
         } catch (Exception e) {
             e.printStackTrace();
         }
