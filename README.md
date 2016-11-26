@@ -5,3 +5,20 @@
 ![github](https://github.com/love-311/VerticalScrollTextView/blob/master/app/src/main/res/images/github_1.png "github")
 ##核心使用代码如下：（详细请下载参照demo）
 ![github](https://github.com/love-311/VerticalScrollTextView/blob/master/app/src/main/res/images/github_2.png "github")
+##使用：
+首先
+	```
+	callprojects {
+		repositories {
+			...
+			maven { url "https://jitpack.io" }
+		}
+	}
+	```
+然后
+	```
+	dependencies {
+	        compile 'com.github.love-311:VerticalScrollTextView:v1.0'
+	}
+	```
+  就可以愉快的使用了！
